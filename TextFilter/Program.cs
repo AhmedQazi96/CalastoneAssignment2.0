@@ -7,6 +7,8 @@ try
 
     var textFilterApp = container.GetInstance<TextFilterApp>();
 
+    container.Dispose();
+
     textFilterApp.Run();
 }
 catch (Exception ex)
